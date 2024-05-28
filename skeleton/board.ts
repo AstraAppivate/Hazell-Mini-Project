@@ -7,7 +7,7 @@ export type Cell = number | Player | null
 // each position. Put a null in a position that hasn't been played yet.
 export function getBoard(): Cell[][] {
   console.log('getBoard was called')
-  return ('noughts')
+  return []
 }
 
 export function setBoard(newBoard: Cell[][]) {
