@@ -23,7 +23,7 @@ export function switchPlayer(currentPlayer: Player): Player {
 // Otherwise return null to continue playing.
 export function checkWinner(currentBoard: Cell[][]): Player {
   console.log('checkWinner was called') // keep this line here
-  return undefined
+  return ("nobody")
 }
 
 // Set the game state back to its original state to play another game.
